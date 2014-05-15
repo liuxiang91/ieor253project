@@ -35,6 +35,7 @@ for y=1:11
 end
 
 % randomly pick 20 points and store demand
+for rep=1:100
 index=randperm(120);
 index=index(1:20);
 demandXY=zeros(20,3); % demand x y (start from 1)
@@ -68,6 +69,9 @@ Si=zeros(20,2);
 for i=1:length(demandXY)
     [x,y]=code2key(demandXY(i,2));
     Si(i,:)=[i S(y,x)];
+end
+genDat(Lij_code,demandXY,Si,num2str(rep));
+disp(rep);
 end
 
 

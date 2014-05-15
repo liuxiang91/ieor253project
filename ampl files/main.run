@@ -1,9 +1,1000 @@
 reset;
 option solver cplex;
 model main.mod;
-data main.dat;
+data main1.dat;
 solve;
-csvdisplay x > "./x.csv";
-csvdisplay y > "./y.csv";
-csvdisplay w > "./w.csv";
-csvdisplay z > "./z.csv";
+csvdisplay x > "./x1.csv";
+csvdisplay w > "./w1.csv";
+csvdisplay y > "./y1.csv";
+csvdisplay z > "./z1.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main2.dat;
+solve;
+csvdisplay x > "./x2.csv";
+csvdisplay w > "./w2.csv";
+csvdisplay y > "./y2.csv";
+csvdisplay z > "./z2.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main3.dat;
+solve;
+csvdisplay x > "./x3.csv";
+csvdisplay w > "./w3.csv";
+csvdisplay y > "./y3.csv";
+csvdisplay z > "./z3.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main4.dat;
+solve;
+csvdisplay x > "./x4.csv";
+csvdisplay w > "./w4.csv";
+csvdisplay y > "./y4.csv";
+csvdisplay z > "./z4.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main5.dat;
+solve;
+csvdisplay x > "./x5.csv";
+csvdisplay w > "./w5.csv";
+csvdisplay y > "./y5.csv";
+csvdisplay z > "./z5.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main6.dat;
+solve;
+csvdisplay x > "./x6.csv";
+csvdisplay w > "./w6.csv";
+csvdisplay y > "./y6.csv";
+csvdisplay z > "./z6.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main7.dat;
+solve;
+csvdisplay x > "./x7.csv";
+csvdisplay w > "./w7.csv";
+csvdisplay y > "./y7.csv";
+csvdisplay z > "./z7.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main8.dat;
+solve;
+csvdisplay x > "./x8.csv";
+csvdisplay w > "./w8.csv";
+csvdisplay y > "./y8.csv";
+csvdisplay z > "./z8.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main9.dat;
+solve;
+csvdisplay x > "./x9.csv";
+csvdisplay w > "./w9.csv";
+csvdisplay y > "./y9.csv";
+csvdisplay z > "./z9.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main10.dat;
+solve;
+csvdisplay x > "./x10.csv";
+csvdisplay w > "./w10.csv";
+csvdisplay y > "./y10.csv";
+csvdisplay z > "./z10.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main11.dat;
+solve;
+csvdisplay x > "./x11.csv";
+csvdisplay w > "./w11.csv";
+csvdisplay y > "./y11.csv";
+csvdisplay z > "./z11.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main12.dat;
+solve;
+csvdisplay x > "./x12.csv";
+csvdisplay w > "./w12.csv";
+csvdisplay y > "./y12.csv";
+csvdisplay z > "./z12.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main13.dat;
+solve;
+csvdisplay x > "./x13.csv";
+csvdisplay w > "./w13.csv";
+csvdisplay y > "./y13.csv";
+csvdisplay z > "./z13.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main14.dat;
+solve;
+csvdisplay x > "./x14.csv";
+csvdisplay w > "./w14.csv";
+csvdisplay y > "./y14.csv";
+csvdisplay z > "./z14.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main15.dat;
+solve;
+csvdisplay x > "./x15.csv";
+csvdisplay w > "./w15.csv";
+csvdisplay y > "./y15.csv";
+csvdisplay z > "./z15.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main16.dat;
+solve;
+csvdisplay x > "./x16.csv";
+csvdisplay w > "./w16.csv";
+csvdisplay y > "./y16.csv";
+csvdisplay z > "./z16.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main17.dat;
+solve;
+csvdisplay x > "./x17.csv";
+csvdisplay w > "./w17.csv";
+csvdisplay y > "./y17.csv";
+csvdisplay z > "./z17.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main18.dat;
+solve;
+csvdisplay x > "./x18.csv";
+csvdisplay w > "./w18.csv";
+csvdisplay y > "./y18.csv";
+csvdisplay z > "./z18.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main19.dat;
+solve;
+csvdisplay x > "./x19.csv";
+csvdisplay w > "./w19.csv";
+csvdisplay y > "./y19.csv";
+csvdisplay z > "./z19.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main20.dat;
+solve;
+csvdisplay x > "./x20.csv";
+csvdisplay w > "./w20.csv";
+csvdisplay y > "./y20.csv";
+csvdisplay z > "./z20.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main21.dat;
+solve;
+csvdisplay x > "./x21.csv";
+csvdisplay w > "./w21.csv";
+csvdisplay y > "./y21.csv";
+csvdisplay z > "./z21.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main22.dat;
+solve;
+csvdisplay x > "./x22.csv";
+csvdisplay w > "./w22.csv";
+csvdisplay y > "./y22.csv";
+csvdisplay z > "./z22.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main23.dat;
+solve;
+csvdisplay x > "./x23.csv";
+csvdisplay w > "./w23.csv";
+csvdisplay y > "./y23.csv";
+csvdisplay z > "./z23.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main24.dat;
+solve;
+csvdisplay x > "./x24.csv";
+csvdisplay w > "./w24.csv";
+csvdisplay y > "./y24.csv";
+csvdisplay z > "./z24.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main25.dat;
+solve;
+csvdisplay x > "./x25.csv";
+csvdisplay w > "./w25.csv";
+csvdisplay y > "./y25.csv";
+csvdisplay z > "./z25.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main26.dat;
+solve;
+csvdisplay x > "./x26.csv";
+csvdisplay w > "./w26.csv";
+csvdisplay y > "./y26.csv";
+csvdisplay z > "./z26.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main27.dat;
+solve;
+csvdisplay x > "./x27.csv";
+csvdisplay w > "./w27.csv";
+csvdisplay y > "./y27.csv";
+csvdisplay z > "./z27.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main28.dat;
+solve;
+csvdisplay x > "./x28.csv";
+csvdisplay w > "./w28.csv";
+csvdisplay y > "./y28.csv";
+csvdisplay z > "./z28.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main29.dat;
+solve;
+csvdisplay x > "./x29.csv";
+csvdisplay w > "./w29.csv";
+csvdisplay y > "./y29.csv";
+csvdisplay z > "./z29.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main30.dat;
+solve;
+csvdisplay x > "./x30.csv";
+csvdisplay w > "./w30.csv";
+csvdisplay y > "./y30.csv";
+csvdisplay z > "./z30.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main31.dat;
+solve;
+csvdisplay x > "./x31.csv";
+csvdisplay w > "./w31.csv";
+csvdisplay y > "./y31.csv";
+csvdisplay z > "./z31.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main32.dat;
+solve;
+csvdisplay x > "./x32.csv";
+csvdisplay w > "./w32.csv";
+csvdisplay y > "./y32.csv";
+csvdisplay z > "./z32.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main33.dat;
+solve;
+csvdisplay x > "./x33.csv";
+csvdisplay w > "./w33.csv";
+csvdisplay y > "./y33.csv";
+csvdisplay z > "./z33.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main34.dat;
+solve;
+csvdisplay x > "./x34.csv";
+csvdisplay w > "./w34.csv";
+csvdisplay y > "./y34.csv";
+csvdisplay z > "./z34.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main35.dat;
+solve;
+csvdisplay x > "./x35.csv";
+csvdisplay w > "./w35.csv";
+csvdisplay y > "./y35.csv";
+csvdisplay z > "./z35.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main36.dat;
+solve;
+csvdisplay x > "./x36.csv";
+csvdisplay w > "./w36.csv";
+csvdisplay y > "./y36.csv";
+csvdisplay z > "./z36.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main37.dat;
+solve;
+csvdisplay x > "./x37.csv";
+csvdisplay w > "./w37.csv";
+csvdisplay y > "./y37.csv";
+csvdisplay z > "./z37.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main38.dat;
+solve;
+csvdisplay x > "./x38.csv";
+csvdisplay w > "./w38.csv";
+csvdisplay y > "./y38.csv";
+csvdisplay z > "./z38.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main39.dat;
+solve;
+csvdisplay x > "./x39.csv";
+csvdisplay w > "./w39.csv";
+csvdisplay y > "./y39.csv";
+csvdisplay z > "./z39.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main40.dat;
+solve;
+csvdisplay x > "./x40.csv";
+csvdisplay w > "./w40.csv";
+csvdisplay y > "./y40.csv";
+csvdisplay z > "./z40.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main41.dat;
+solve;
+csvdisplay x > "./x41.csv";
+csvdisplay w > "./w41.csv";
+csvdisplay y > "./y41.csv";
+csvdisplay z > "./z41.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main42.dat;
+solve;
+csvdisplay x > "./x42.csv";
+csvdisplay w > "./w42.csv";
+csvdisplay y > "./y42.csv";
+csvdisplay z > "./z42.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main43.dat;
+solve;
+csvdisplay x > "./x43.csv";
+csvdisplay w > "./w43.csv";
+csvdisplay y > "./y43.csv";
+csvdisplay z > "./z43.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main44.dat;
+solve;
+csvdisplay x > "./x44.csv";
+csvdisplay w > "./w44.csv";
+csvdisplay y > "./y44.csv";
+csvdisplay z > "./z44.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main45.dat;
+solve;
+csvdisplay x > "./x45.csv";
+csvdisplay w > "./w45.csv";
+csvdisplay y > "./y45.csv";
+csvdisplay z > "./z45.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main46.dat;
+solve;
+csvdisplay x > "./x46.csv";
+csvdisplay w > "./w46.csv";
+csvdisplay y > "./y46.csv";
+csvdisplay z > "./z46.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main47.dat;
+solve;
+csvdisplay x > "./x47.csv";
+csvdisplay w > "./w47.csv";
+csvdisplay y > "./y47.csv";
+csvdisplay z > "./z47.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main48.dat;
+solve;
+csvdisplay x > "./x48.csv";
+csvdisplay w > "./w48.csv";
+csvdisplay y > "./y48.csv";
+csvdisplay z > "./z48.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main49.dat;
+solve;
+csvdisplay x > "./x49.csv";
+csvdisplay w > "./w49.csv";
+csvdisplay y > "./y49.csv";
+csvdisplay z > "./z49.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main50.dat;
+solve;
+csvdisplay x > "./x50.csv";
+csvdisplay w > "./w50.csv";
+csvdisplay y > "./y50.csv";
+csvdisplay z > "./z50.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main51.dat;
+solve;
+csvdisplay x > "./x51.csv";
+csvdisplay w > "./w51.csv";
+csvdisplay y > "./y51.csv";
+csvdisplay z > "./z51.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main52.dat;
+solve;
+csvdisplay x > "./x52.csv";
+csvdisplay w > "./w52.csv";
+csvdisplay y > "./y52.csv";
+csvdisplay z > "./z52.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main53.dat;
+solve;
+csvdisplay x > "./x53.csv";
+csvdisplay w > "./w53.csv";
+csvdisplay y > "./y53.csv";
+csvdisplay z > "./z53.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main54.dat;
+solve;
+csvdisplay x > "./x54.csv";
+csvdisplay w > "./w54.csv";
+csvdisplay y > "./y54.csv";
+csvdisplay z > "./z54.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main55.dat;
+solve;
+csvdisplay x > "./x55.csv";
+csvdisplay w > "./w55.csv";
+csvdisplay y > "./y55.csv";
+csvdisplay z > "./z55.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main56.dat;
+solve;
+csvdisplay x > "./x56.csv";
+csvdisplay w > "./w56.csv";
+csvdisplay y > "./y56.csv";
+csvdisplay z > "./z56.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main57.dat;
+solve;
+csvdisplay x > "./x57.csv";
+csvdisplay w > "./w57.csv";
+csvdisplay y > "./y57.csv";
+csvdisplay z > "./z57.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main58.dat;
+solve;
+csvdisplay x > "./x58.csv";
+csvdisplay w > "./w58.csv";
+csvdisplay y > "./y58.csv";
+csvdisplay z > "./z58.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main59.dat;
+solve;
+csvdisplay x > "./x59.csv";
+csvdisplay w > "./w59.csv";
+csvdisplay y > "./y59.csv";
+csvdisplay z > "./z59.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main60.dat;
+solve;
+csvdisplay x > "./x60.csv";
+csvdisplay w > "./w60.csv";
+csvdisplay y > "./y60.csv";
+csvdisplay z > "./z60.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main61.dat;
+solve;
+csvdisplay x > "./x61.csv";
+csvdisplay w > "./w61.csv";
+csvdisplay y > "./y61.csv";
+csvdisplay z > "./z61.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main62.dat;
+solve;
+csvdisplay x > "./x62.csv";
+csvdisplay w > "./w62.csv";
+csvdisplay y > "./y62.csv";
+csvdisplay z > "./z62.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main63.dat;
+solve;
+csvdisplay x > "./x63.csv";
+csvdisplay w > "./w63.csv";
+csvdisplay y > "./y63.csv";
+csvdisplay z > "./z63.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main64.dat;
+solve;
+csvdisplay x > "./x64.csv";
+csvdisplay w > "./w64.csv";
+csvdisplay y > "./y64.csv";
+csvdisplay z > "./z64.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main65.dat;
+solve;
+csvdisplay x > "./x65.csv";
+csvdisplay w > "./w65.csv";
+csvdisplay y > "./y65.csv";
+csvdisplay z > "./z65.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main66.dat;
+solve;
+csvdisplay x > "./x66.csv";
+csvdisplay w > "./w66.csv";
+csvdisplay y > "./y66.csv";
+csvdisplay z > "./z66.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main67.dat;
+solve;
+csvdisplay x > "./x67.csv";
+csvdisplay w > "./w67.csv";
+csvdisplay y > "./y67.csv";
+csvdisplay z > "./z67.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main68.dat;
+solve;
+csvdisplay x > "./x68.csv";
+csvdisplay w > "./w68.csv";
+csvdisplay y > "./y68.csv";
+csvdisplay z > "./z68.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main69.dat;
+solve;
+csvdisplay x > "./x69.csv";
+csvdisplay w > "./w69.csv";
+csvdisplay y > "./y69.csv";
+csvdisplay z > "./z69.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main70.dat;
+solve;
+csvdisplay x > "./x70.csv";
+csvdisplay w > "./w70.csv";
+csvdisplay y > "./y70.csv";
+csvdisplay z > "./z70.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main71.dat;
+solve;
+csvdisplay x > "./x71.csv";
+csvdisplay w > "./w71.csv";
+csvdisplay y > "./y71.csv";
+csvdisplay z > "./z71.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main72.dat;
+solve;
+csvdisplay x > "./x72.csv";
+csvdisplay w > "./w72.csv";
+csvdisplay y > "./y72.csv";
+csvdisplay z > "./z72.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main73.dat;
+solve;
+csvdisplay x > "./x73.csv";
+csvdisplay w > "./w73.csv";
+csvdisplay y > "./y73.csv";
+csvdisplay z > "./z73.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main74.dat;
+solve;
+csvdisplay x > "./x74.csv";
+csvdisplay w > "./w74.csv";
+csvdisplay y > "./y74.csv";
+csvdisplay z > "./z74.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main75.dat;
+solve;
+csvdisplay x > "./x75.csv";
+csvdisplay w > "./w75.csv";
+csvdisplay y > "./y75.csv";
+csvdisplay z > "./z75.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main76.dat;
+solve;
+csvdisplay x > "./x76.csv";
+csvdisplay w > "./w76.csv";
+csvdisplay y > "./y76.csv";
+csvdisplay z > "./z76.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main77.dat;
+solve;
+csvdisplay x > "./x77.csv";
+csvdisplay w > "./w77.csv";
+csvdisplay y > "./y77.csv";
+csvdisplay z > "./z77.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main78.dat;
+solve;
+csvdisplay x > "./x78.csv";
+csvdisplay w > "./w78.csv";
+csvdisplay y > "./y78.csv";
+csvdisplay z > "./z78.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main79.dat;
+solve;
+csvdisplay x > "./x79.csv";
+csvdisplay w > "./w79.csv";
+csvdisplay y > "./y79.csv";
+csvdisplay z > "./z79.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main80.dat;
+solve;
+csvdisplay x > "./x80.csv";
+csvdisplay w > "./w80.csv";
+csvdisplay y > "./y80.csv";
+csvdisplay z > "./z80.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main81.dat;
+solve;
+csvdisplay x > "./x81.csv";
+csvdisplay w > "./w81.csv";
+csvdisplay y > "./y81.csv";
+csvdisplay z > "./z81.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main82.dat;
+solve;
+csvdisplay x > "./x82.csv";
+csvdisplay w > "./w82.csv";
+csvdisplay y > "./y82.csv";
+csvdisplay z > "./z82.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main83.dat;
+solve;
+csvdisplay x > "./x83.csv";
+csvdisplay w > "./w83.csv";
+csvdisplay y > "./y83.csv";
+csvdisplay z > "./z83.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main84.dat;
+solve;
+csvdisplay x > "./x84.csv";
+csvdisplay w > "./w84.csv";
+csvdisplay y > "./y84.csv";
+csvdisplay z > "./z84.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main85.dat;
+solve;
+csvdisplay x > "./x85.csv";
+csvdisplay w > "./w85.csv";
+csvdisplay y > "./y85.csv";
+csvdisplay z > "./z85.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main86.dat;
+solve;
+csvdisplay x > "./x86.csv";
+csvdisplay w > "./w86.csv";
+csvdisplay y > "./y86.csv";
+csvdisplay z > "./z86.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main87.dat;
+solve;
+csvdisplay x > "./x87.csv";
+csvdisplay w > "./w87.csv";
+csvdisplay y > "./y87.csv";
+csvdisplay z > "./z87.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main88.dat;
+solve;
+csvdisplay x > "./x88.csv";
+csvdisplay w > "./w88.csv";
+csvdisplay y > "./y88.csv";
+csvdisplay z > "./z88.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main89.dat;
+solve;
+csvdisplay x > "./x89.csv";
+csvdisplay w > "./w89.csv";
+csvdisplay y > "./y89.csv";
+csvdisplay z > "./z89.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main90.dat;
+solve;
+csvdisplay x > "./x90.csv";
+csvdisplay w > "./w90.csv";
+csvdisplay y > "./y90.csv";
+csvdisplay z > "./z90.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main91.dat;
+solve;
+csvdisplay x > "./x91.csv";
+csvdisplay w > "./w91.csv";
+csvdisplay y > "./y91.csv";
+csvdisplay z > "./z91.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main92.dat;
+solve;
+csvdisplay x > "./x92.csv";
+csvdisplay w > "./w92.csv";
+csvdisplay y > "./y92.csv";
+csvdisplay z > "./z92.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main93.dat;
+solve;
+csvdisplay x > "./x93.csv";
+csvdisplay w > "./w93.csv";
+csvdisplay y > "./y93.csv";
+csvdisplay z > "./z93.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main94.dat;
+solve;
+csvdisplay x > "./x94.csv";
+csvdisplay w > "./w94.csv";
+csvdisplay y > "./y94.csv";
+csvdisplay z > "./z94.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main95.dat;
+solve;
+csvdisplay x > "./x95.csv";
+csvdisplay w > "./w95.csv";
+csvdisplay y > "./y95.csv";
+csvdisplay z > "./z95.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main96.dat;
+solve;
+csvdisplay x > "./x96.csv";
+csvdisplay w > "./w96.csv";
+csvdisplay y > "./y96.csv";
+csvdisplay z > "./z96.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main97.dat;
+solve;
+csvdisplay x > "./x97.csv";
+csvdisplay w > "./w97.csv";
+csvdisplay y > "./y97.csv";
+csvdisplay z > "./z97.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main98.dat;
+solve;
+csvdisplay x > "./x98.csv";
+csvdisplay w > "./w98.csv";
+csvdisplay y > "./y98.csv";
+csvdisplay z > "./z98.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main99.dat;
+solve;
+csvdisplay x > "./x99.csv";
+csvdisplay w > "./w99.csv";
+csvdisplay y > "./y99.csv";
+csvdisplay z > "./z99.csv";
+
+reset;
+option solver cplex;
+model main.mod;
+data main100.dat;
+solve;
+csvdisplay x > "./x100.csv";
+csvdisplay w > "./w100.csv";
+csvdisplay y > "./y100.csv";
+csvdisplay z > "./z100.csv";
+

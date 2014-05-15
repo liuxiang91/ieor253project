@@ -1,4 +1,4 @@
-function [  ] = genDat( Lij, D, S)
+function [  ] = genDat( Lij, D, S, note)
 %GENDAT Summary of this function goes here
 %   Detailed explanation goes here
 str=['param D:=\n'];
@@ -24,6 +24,6 @@ end
 str=[str ';\n'];
 str=[str 'param C =60;'];
 
-fileID = fopen('main.dat','w');
+fileID = fopen(['main' note '.dat'] ,'w');
 fprintf(fileID,str);
 fclose(fileID);
